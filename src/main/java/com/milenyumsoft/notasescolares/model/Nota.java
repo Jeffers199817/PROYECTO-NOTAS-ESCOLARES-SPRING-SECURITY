@@ -8,4 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @ToString
 public class Nota {
+
+    private Long idCalificacion;
+    private String nombreMateria;
+    private double calificacionMateria;
 }
