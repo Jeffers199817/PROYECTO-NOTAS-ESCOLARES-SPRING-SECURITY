@@ -1,10 +1,12 @@
 package com.milenyumsoft.notasescolares.service;
 
 import com.milenyumsoft.notasescolares.model.Nota;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class NotaService implements INotaService{
 
     private List<Nota> listaNota= new ArrayList<>();
